@@ -1,0 +1,706 @@
+h1 {
+  color: white;
+}
+
+
+
+.titulo-box-layout {
+  font-size: 9pt;
+  color: white;
+}
+
+.paragrafo-box {
+  font-size: 10pt;
+  color: white;
+}
+
+/*title*/
+
+
+#title {
+  width: 1000px;
+  margin: auto;
+}
+
+
+
+
+.navbar-nav>li>a {
+  color: rgb(215, 151, 13);
+  text-decoration: none;
+  margin: 7px;
+}
+
+
+.navbar-nav>li:hover>a,
+.navbar-nav>li.active>a {
+  color: rgb(10, 9, 0);
+}
+
+
+#hero {
+  width: 1000px;
+  height: 500px;
+  position: relative;
+  background-image: url("../img/edificio.jpg");
+  margin: auto;
+}
+
+.box-content {
+  width: 300px;
+  height: 150px;
+  position: absolute;
+  top: 30%;
+  left: 80px;
+}
+
+.auto-layout {
+  width: 20%;
+  height: 20%;
+  position: absolute;
+  top: 399px;
+  right: 0px;
+  background-color: white;
+}
+
+.box-layout {
+  margin: auto;
+  width: 100%;
+  height: 80%;
+  background-color: #3559C7;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.back-bottom {
+  width: 49%;
+  height: 20%;
+  float: left;
+  background-color: #292E3D;
+  text-align: center;
+  color: white;
+  font-size: 8pt;
+}
+
+.next-bottom {
+  width: 50%;
+  height: 20%;
+  float: right;
+  background-color: #292E3D;
+  text-align: center;
+  color: white;
+  font-size: 8pt;
+}
+
+#reputation {
+  width: 1000px;
+  border: 0px solid black;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.titulo-reputation {
+  color: black;
+  padding: 20px;
+}
+
+.card-group .card {
+  border: 1px solid #E0E3EB;
+  align-items: center;
+
+}
+
+.img-contato {
+  width: 90px;
+}
+
+/*secao sobre nos*/
+
+#sobre-nos {
+  width: 1000px;
+  height: 500px;
+  margin: auto;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.image-sobre-nos {
+  width: 480px;
+  height: 420px;
+  margin: 5% 20% 10% 10%;
+  background-image: url("../img/img-sobre.jpg");
+}
+
+.texto-sobre-nos {
+  width: 300px;
+  height: 310px;
+  position: absolute;
+  right: 150px;
+  top: 80px;
+  background-color: #3559C7;
+  padding: 40px;
+  text-align: center;
+}
+
+.titulo-sobre-nos {
+  font-size: 14pt;
+}
+
+.historia-sobre-nos {
+  font-size: 10pt;
+  text-align: left;
+}
+
+
+/*servicos*/
+
+#servicos {
+  width: 1000px;
+  background-color: #F5FFFA;
+  margin-bottom: 10px;
+  margin: auto;
+  text-align: center;
+}
+
+.titulo-servicos {
+  font-size: 20pt;
+  margin: 20px;
+  text-align: center;
+  color: black;
+}
+
+#servicos .card {
+  width: 200px;
+  height: 150px;
+  left: 20%;
+}
+
+/*estatistica*/
+
+#estatistica {
+  width: 1000px;
+  height: 400px;
+
+  margin: auto;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.box-01 {
+  position: absolute;
+  width: 150px;
+  height: 100px;
+  top: 70px;
+  left: 200px;
+  background-color: white;
+  z-index: 1;
+  box-shadow: 6px 6px 10px 1px #4f4d4d;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.box-02 {
+  position: absolute;
+  width: 150px;
+  height: 100px;
+  top: 110px;
+  left: 70px;
+  background-color: white;
+  box-shadow: 6px 6px 10px 1px #4f4d4d;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.box-03 {
+  position: absolute;
+  width: 150px;
+  height: 100px;
+  top: 190px;
+  left: 180px;
+  background-color: white;
+  z-index: 1;
+  box-shadow: 6px 6px 10px 1px #4f4d4d;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.box-04 {
+  position: absolute;
+  width: 150px;
+  height: 100px;
+  top: 250px;
+  left: 50px;
+  background-color: white;
+  box-shadow: 6px 6px 10px 1px #4f4d4d;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.icon-01 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 70px;
+  left: 50px;
+  z-index: 1;
+  background-image: url("../img/icon-estatistica-01.png");
+}
+
+.icon-02 {
+  position: absolute;
+  width: 56px;
+  height: 56px;
+  top: 20px;
+  left: 320px;
+  z-index: 1;
+  background-image: url("../img/icon-estatistica-02.png");
+
+}
+
+.icon-03 {
+  position: absolute;
+  width: 53px;
+  height: 49px;
+  top: 180px;
+  left: 320px;
+  z-index: 1;
+  background-image: url("../img/icon-estatistica-03.png");
+
+}
+
+.icon-04 {
+  position: absolute;
+  width: 51px;
+  height: 49px;
+  top: 320px;
+  left: 180px;
+  z-index: 1;
+  background-image: url("../img/icon-estatistica-04.png");
+
+}
+
+.n-estatistica {
+  color: black;
+  font-size: 30pt;
+}
+
+b {
+  color: orange;
+}
+
+.texto-estatistica {
+  position: absolute;
+  width: 300px;
+  height: 350px;
+  border: 0px solid black;
+  right: 50px;
+  top: 50px;
+  padding-left: 20px;
+}
+
+.tutulo-experiencia {
+  font-size: 20pt;
+  color: black;
+}
+
+.texto-experiencia {
+  font-size: 12pt;
+  color: #3559C7;
+}
+
+.button-experiencia {
+  background-color: #3559C7;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+#consultar {
+  width: 1000px;
+  height: 200px;
+  margin: auto;
+  margin-bottom: 10px;
+  background-image: url("../img/cozinha.jpg");
+  padding: 70px 50px 50px 50px;
+  position: relative;
+}
+
+.box-consulta {
+  position: absolute;
+  right: 70px;
+  top: 100px;
+}
+
+.titulo-consulta {
+  font-size: 18pt;
+}
+
+.paragrafo-consulta {
+  color: white;
+}
+
+.button-consulta {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 0px 10px 0px 10px;
+}
+
+/*section projetos*/
+
+#projetos {
+  width: 1000px;
+  height: 605px;
+  margin: auto;
+
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.menu-projeto {
+  position: absolute;
+  left: 20px;
+  top: 5px;
+  width: 300px;
+  height: 300px;
+  font-size: 10pt;
+  color: #cccc;
+}
+
+.galeria-projeto {
+  position: absolute;
+  right: 0px;
+  top: 30px;
+  width: 640px;
+  height: 510px;
+}
+
+.titulo-projeto {
+  font-size: 18pt;
+  color: black;
+}
+
+.main-projetos {
+  color: #3559C7;
+  font-size: 14pt;
+}
+
+/*galeria projeto*/
+
+.cards-body {
+  background-color: #3559C7;
+  height: 70px;
+  padding: 10px;
+}
+
+.cards-title {
+  color: white;
+  font-size: 10pt;
+}
+
+.cards-text {
+  color: white;
+  font-size: 8pt;
+
+}
+
+.col .cards {
+  width: 250px;
+}
+
+.button-galeria {
+  width: 587px;
+  height: 40px;
+  position: relative;
+}
+
+
+.button-projetos-next {
+  right: 0px;
+  position: absolute;
+}
+
+.button-projetos-back,
+.button-projetos-next {
+  width: 250px;
+  color: white;
+  background-color: #292E3D;
+}
+
+/*contato*/
+
+#contato {
+  width: 1000px;
+  height: 450px;
+  margin: auto;
+  background-color: #F6F8F7;
+  margin-bottom: 30px;
+  padding-top: 10px;
+}
+
+
+.titulo-contato {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 20pt;
+}
+
+.texto-contato {
+  text-align: center;
+  font-size: 9pt;
+}
+
+.contato-form {
+  text-align: center;
+}
+
+#contato input {
+  margin-bottom: 16px;
+}
+
+.button-contato {
+  margin-top: 16px;
+  background-color: #3559C7;
+  padding: 5px;
+  width: 390px;
+  color: white;
+  border: none;
+}
+
+/*rodapé*/
+
+#rodape {
+  width: 1000px;
+  height: 300px;
+  margin: auto;
+  position: relative;
+}
+
+.endereco {
+  position: absolute;
+  width: 480px;
+  height: 220px;
+  left: 15px;
+  padding-top: 50px;
+  padding-left: 5%;
+}
+
+.boletinho {
+  position: absolute;
+  width: 480px;
+  height: 220px;
+  right: 15px;
+  padding-top: 50px;
+  padding-left: 80px;
+}
+
+.button-boletinho {
+  background-color: #F9995D;
+  color: white;
+  width: 120px;
+}
+
+.boletinho-titulo {
+  color: #3559C7;
+  font-size: 9pt;
+
+}
+
+.boletinho-social {
+  font-size: 7pt;
+  color: #3559C7;
+}
+
+.form-boletim {
+  margin-top: 20px;
+}
+
+.social-icon {
+  color: #0a2371;
+}
+
+.copyright {
+  position: absolute;
+  width: 1000px;
+  height: 60px;
+  border: 1px solid rgb(60, 82, 224);
+  bottom: 1px;
+}
+
+.endereco {
+  font-size: 9pt;
+}
+
+.stilo-endereco {
+  color: #3559C7;
+}
+
+.copyright {
+  color: white;
+  font-size: 8pt;
+  background-color: #3559C7;
+  padding: 20px 20px 20px 90px;
+}
+
+/*responsividade */
+@media (max-width:1000px) {
+
+  #title,
+  #reputation,
+  #sobre-nos,
+  #servicos,
+  #contato {
+    width: 100%;
+  }
+
+  #hero {
+    width: 100%;
+    height: 50%;
+    background-image: url("../img/edificio2.jpg");
+  }
+
+  .auto-layout {
+    width: 25%;
+    height: 25%;
+    position: absolute;
+    top: 216px;
+    right: 0px;
+  }
+
+  .titulo-box-layout {
+    font-size: 6pt;
+  }
+
+  .paragrafo-box {
+    font-size: 6pt;
+  }
+
+
+
+  .image-sobre-nos {
+    width: 400px;
+    height: 350px;
+    margin: 1% 1% 11% 1%;
+    background-image: url("../img/img-sobre2.jpg");
+  }
+
+  .texto-sobre-nos {
+    width: 260px;
+    height: 330px;
+    position: absolute;
+    right: 1px;
+    top: 20px;
+    background-color: #3559C7;
+    padding: 40px;
+    text-align: center;
+  }
+
+
+
+  #servicos .card {
+    left: 25%;
+  }
+
+  #estatistica {
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+  }
+
+
+  .texto-estatistica {
+    right: 25%;
+    top: 400px;
+  }
+
+  #consultar {
+    width: 100%;
+  }
+
+  /*projetos*/
+
+  #projetos {
+    width: 90%;
+    overflow: hidden;
+  }
+
+  .button-projetos-back,
+  .button-projetos-next {
+    width: 150px;
+    color: white;
+    background-color: #292E3D;
+  }
+
+  .button-galeria {
+    width: 250px;
+    height: 25px;
+    bottom: 0px;
+    position: absolute;
+  }
+
+  .menu-projeto {
+    width: 0px;
+  }
+
+  .galeria-projeto {
+    width: 100%;
+    overflow: hidden;
+    padding-left: 25%;
+  }
+
+
+
+  .button-projetos-back,
+  .button-projetos-next {
+    width: 100px;
+    color: white;
+    background-color: #292E3D;
+  }
+
+  .button-contato {
+    margin-top: 16px;
+    background-color: #3559C7;
+    padding: 5px;
+    width: 350px;
+    color: white;
+    border: none;
+  }
+
+  /*rodape*/
+
+  #rodape {
+    width: 100%;
+    height: 550px;
+  }
+
+  .boletinho {
+    width: 90%;
+    top: 250px;
+    padding-left: 25%;
+   }
+
+   .button-boletinho {
+    width: 190px;
+   }
+
+  .endereco {
+    width: 90%;
+    height: 220px;
+    padding-left: 25%;
+  }
+
+  .copyright {
+    width: 100%;
+  }
+
+  #contato input {
+    max-width: 175px;
+  }
+
+  textarea {
+    max-width: 350px;
+  }
+}
+
